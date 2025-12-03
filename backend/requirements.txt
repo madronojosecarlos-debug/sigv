@@ -1,0 +1,31 @@
+# SIGV - Sistema Inteligente de Gestión de Vehículos
+# Dependencias del Backend
+
+# Framework web
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Base de datos
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# Autenticación
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Validación y utilidades
+pydantic==2.5.2
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# Fechas y tiempo
+python-dateutil==2.8.2
+
+# CORS
+starlette==0.27.0
+
+# Testing
+pytest==7.4.3
+httpx==0.25.2
